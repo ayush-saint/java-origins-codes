@@ -1,15 +1,11 @@
-//program for sum of two number where numbers are passed in function call
-
-import java.util.Scanner;
+//program using function and the return value is String and it is passed in the function call
 public class function{
     public static void main(String[] args){
-        int ans = sum(40,44);
+        String ans = greet("ayush ");
         System.out.println(ans);
-    
     }
-      static int sum(int a,int b){
-            int sum = a+b;
-            return sum;
-      }
-    } 
-    
+    static String greet(String name){
+        String nname = "hello" + name;
+        return nname;
+    }
+}
