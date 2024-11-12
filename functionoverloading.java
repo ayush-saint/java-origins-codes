@@ -1,6 +1,6 @@
 public class functionoverloading{
     public static void main(String[] args){
-        int ans =fun(88,33);
+        int ans =fun(88,33,33);
         System.out.println(ans);
 
     }
