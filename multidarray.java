@@ -23,11 +23,14 @@ public class multidarray{
 
         System.out.println("numbers of 2d array are ");
         
-        for(int i=0; i<row; i++){
+     /* for(int i=0; i<row; i++){
             for(int j=0; j<column ; j++){
-                System.out.println(arrr[i][j]+" ");
+                System.out.println(arrr[i][j] 3+" ");
             }
             System.out.println();
+        }*/
+        for (int i =0 ; i<arrr.length ; i++){
+            System.out.println(Arrays.toString(arrr[i]));
         }
     }
 }
