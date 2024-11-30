@@ -29,8 +29,11 @@ public class multidarray{
             }
             System.out.println();
         }*/
-        for (int i =0 ; i<arrr.length ; i++){
+    /*  for (int i =0 ; i<arrr.length ; i++){
             System.out.println(Arrays.toString(arrr[i]));
+        }*/
+        for(int[]a : arrr){
+            System.out.println(Arrays.toString(a));
         }
     }
 }
