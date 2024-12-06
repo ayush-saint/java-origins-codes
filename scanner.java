@@ -1,9 +1,12 @@
 import java.util.*;
 class scanner{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter some string ");
-        String name = sc.next();
-        System.out.println(name);
+        Scanner a = new Scanner(System.in);
+        System.out.println("enter a :");
+        int aa = a.nextInt();
+        System.out.println("enter b :");
+        int bb = a.nextInt();
+        int sum = aa+bb;
+        System.out.println(sum);
     }
 }
