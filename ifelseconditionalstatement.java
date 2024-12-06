@@ -37,7 +37,7 @@ class ifelseconditionalstatement{
     }
 }*/
 
-/*__input two number a and b , print equal if a=b,print greater if a>b, print lesser if a<b  */
+/*__input two number a and b , print equal if a=b,print greater if a>b, print lesser if a<b  
 import java.util.*;
 class ifelseconditionalstatement{
     public static void main(String[] args){
@@ -53,6 +53,31 @@ class ifelseconditionalstatement{
             System.out.println("lesser");
         }else{
             System.out.println("equal");
+        };
+        scanner.close();
+
+    }
+}*/
+
+//__input two number a and b , print equal if a=b,print greater if a>b, print lesser if a<b in diff way
+import java.util.*;
+public class ifelseconditionalstatement{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("enter the number a : ");
+        int a = scanner.nextInt();
+        System.out.print("enter the number b : ");
+        int b = scanner.nextInt();
+        if(a==b){
+            System.out.println("equals");
+        }
+        else{
+            if(a>b){
+                System.out.println("greater");
+
+            }else{
+                System.out.println("lesser");
+            };
         };
         scanner.close();
 
