@@ -4,7 +4,7 @@
   *****
   *****
  */
-//for this question we will going to use for loop 
+//for this question we will going to use for loop nested loop (one loop under another loop)
 
 public class PatternQ1{
     public static void main(String[] args){
