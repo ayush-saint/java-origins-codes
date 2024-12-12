@@ -21,4 +21,4 @@ public class JavaQ2{
         System.out.println(z);
     }
     }
-}
+}       
