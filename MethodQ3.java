@@ -4,6 +4,10 @@ import java.util.Scanner;
 public class MethodQ3{
 
     public static void factorial(int a ){
+        if(a<0){
+            System.out.println("invalid number ");
+            return;
+        }
         int f = 1;
         for(int i =1 ; i<=a ; i++ ){
             f = f*i;
