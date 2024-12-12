@@ -1,5 +1,6 @@
 // In java function is called as Method 
 
+
 import java.util.Scanner;
 
 public class Function_Method{
