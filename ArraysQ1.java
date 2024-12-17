@@ -5,7 +5,7 @@ public class ArraysQ1{
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter the size of array");
         int size = scanner.nextInt();
-
+        
         int[] arr = new int[size];
 
         System.out.println("enter "+size+" numbers ");
