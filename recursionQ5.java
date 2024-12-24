@@ -1,4 +1,4 @@
-//print the fibonacci series of the given number 
+//print the fibonacci series of the number n=7
 
 public class recursionQ5{
 
