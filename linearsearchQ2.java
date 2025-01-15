@@ -26,7 +26,6 @@ public class linearsearchQ2{
             if(letter==name.charAt(i)){
                 return true;
             }
-            
         }
         return false;
     }
