@@ -4,7 +4,7 @@
 public class binarysearchQ7{
     public static void main(String[] args){
         int[] mountainarr = {1,2,3,4,5,6,7,4,2};
-        int target = 4;
+        int target = 2;
         int ans = findthemountainarray(mountainarr,target);
         System.out.println(ans);
     }
