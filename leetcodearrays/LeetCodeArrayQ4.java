@@ -20,7 +20,7 @@ public class LeetCodeArrayQ4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("enter the number of people p,and the number of bank accounts' holding q: ");
+        System.out.println("enter the number of people p,and the number of bank account's balance q: ");
         int p = scanner.nextInt();
         int q = scanner.nextInt();
         int[][] accounts = new int[p][q];
@@ -38,6 +38,7 @@ public class LeetCodeArrayQ4 {
             }
         }
         System.out.println();
+        scanner.close();
 
         System.out.println("the most amount of wealth is :" + maxwealth(accounts, p, q));
     }
