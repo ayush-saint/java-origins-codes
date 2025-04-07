@@ -1,3 +1,4 @@
+
 /*           Number of Good Pairs
 Given an array of integers nums, return the number of good pairs.
 
@@ -13,22 +14,23 @@ Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
 Example 2:
 */
 import java.util.*;
-public class LeetCodeArrayQ7{
-    public static void main(String[] args){
+
+public class LeetCodeArrayQ7 {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("enter the number of elements in the nums : ");
         int n = scanner.nextInt();
 
         System.out.println("enter the elements of the nums : ");
-        int[]  nums = new int[n];
-        for(int i = 0; i<n ; i++ ){
-            nums[i]=scanner.nextInt();            
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++) {
+            nums[i] = scanner.nextInt();
         }
 
         System.out.println("the input array nums is ");
-        for(int i : nums){
-            System.out.print(i+" ");
+        for (int i : nums) {
+            System.out.print(i + " ");
         }
         System.out.println();
 
@@ -36,16 +38,16 @@ public class LeetCodeArrayQ7{
 
         System.out.println(pair(nums));
     }
-    public static int pair(int[] nums){
+
+    public static int pair(int[] nums) {
         int count = 0;
-        for(int i =0;i<nums.length;i++){
-            for(int j = 1+i;j<nums.length;j++){
-                if(nums[i]==nums[j]){
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = 1 + i; j < nums.length; j++) {
+                if (nums[i] == nums[j]) {
                     count++;
                 }
             }
         }
-        return count ;
+        return count;
     }
 }
-
