@@ -1,0 +1,1 @@
+        int initialaltitude = 0;
